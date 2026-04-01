@@ -1,0 +1,51 @@
+random_seed: 42
+output_root: paper_style_outputs
+top_k_ranked: 5
+threshold_strategy: maximize_f1
+recall_priority_target: 0.90
+test_size: 0.20
+validation_size: 0.20
+cv_folds: 2
+log_level: INFO
+
+sampling_strategies:
+  - baseline
+  - smote
+  - adasyn
+  - random_undersample
+  - smote_tomek
+
+models:
+  - logistic_regression
+  - decision_tree
+  - random_forest
+  - knn
+  - gradient_boosting
+
+datasets:
+  cic_unsw:
+    path: "I:\\My Drive\\An toàn bảo mật HTTT\\CIC_UNSW\\CICFlowMeter_out.csv"
+    label_column: "Label"
+    positive_class: 1
+    drop_columns:
+      - "Flow ID"
+      - "Src IP"
+      - "Dst IP"
+      - "Timestamp"
+      - "Attack Name"
+    max_rows: 5000
+    sample_frac:
+
+  cic_iomt_2024:
+    path: "I:\\My Drive\\An toàn bảo mật HTTT\\IoMT CIC BCCC Dataset 2024\\IoMT_CIC_BCCC_2024_merged.csv"
+    label_column: "Label"
+    positive_class: 1
+    drop_columns:
+      - "Flow ID"
+      - "Src IP"
+      - "Dst IP"
+      - "Timestamp"
+      - "Attack Name"
+      - "__source_file__"
+    max_rows: 5000
+    sample_frac:

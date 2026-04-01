@@ -1,0 +1,258 @@
+2026-03-28 21:46:06,246 | INFO | ==========================================================================================
+2026-03-28 21:46:06,247 | INFO | Starting dataset: cic_unsw
+2026-03-28 21:48:03,079 | INFO | Dataset cic_unsw | rows=5000 cols=79
+2026-03-28 21:48:03,080 | INFO | Label distribution: {'0': 4873, '1': 127}
+2026-03-28 21:48:03,080 | INFO | Imbalance ratio(minority/majority)=0.026062 severity=severe
+2026-03-28 21:48:03,080 | INFO | Missing values total: 0
+2026-03-28 21:48:03,081 | INFO | Numeric columns: 79 | Categorical columns: 0
+2026-03-28 21:48:03,131 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=baseline
+2026-03-28 21:48:03,583 | INFO | Done model=logistic_regression strategy=baseline | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 21:48:03,588 | INFO | Running dataset=cic_unsw model=decision_tree strategy=baseline
+2026-03-28 21:48:03,876 | INFO | Done model=decision_tree strategy=baseline | val_f1=0.5116 val_recall=0.4400 val_mcc=0.5083
+2026-03-28 21:48:03,877 | INFO | Running dataset=cic_unsw model=random_forest strategy=baseline
+2026-03-28 21:48:07,231 | INFO | Done model=random_forest strategy=baseline | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 21:48:07,232 | INFO | Running dataset=cic_unsw model=knn strategy=baseline
+2026-03-28 21:48:10,502 | INFO | Done model=knn strategy=baseline | val_f1=0.6957 val_recall=0.9600 val_mcc=0.7152
+2026-03-28 21:48:10,503 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=baseline
+2026-03-28 21:48:15,075 | INFO | Done model=gradient_boosting strategy=baseline | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 21:48:15,075 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=smote
+2026-03-28 21:48:15,594 | INFO | Done model=logistic_regression strategy=smote | val_f1=0.7234 val_recall=0.6800 val_mcc=0.7183
+2026-03-28 21:48:15,594 | INFO | Running dataset=cic_unsw model=decision_tree strategy=smote
+2026-03-28 21:48:16,287 | INFO | Done model=decision_tree strategy=smote | val_f1=0.7451 val_recall=0.7600 val_mcc=0.7386
+2026-03-28 21:48:16,287 | INFO | Running dataset=cic_unsw model=random_forest strategy=smote
+2026-03-28 21:48:18,798 | INFO | Done model=random_forest strategy=smote | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 21:48:18,799 | INFO | Running dataset=cic_unsw model=knn strategy=smote
+2026-03-28 21:48:19,110 | INFO | Done model=knn strategy=smote | val_f1=0.7541 val_recall=0.9200 val_mcc=0.7599
+2026-03-28 21:48:19,110 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=smote
+2026-03-28 21:48:30,374 | INFO | Done model=gradient_boosting strategy=smote | val_f1=0.7692 val_recall=0.8000 val_mcc=0.7637
+2026-03-28 21:48:30,375 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=adasyn
+2026-03-28 21:48:30,925 | INFO | Done model=logistic_regression strategy=adasyn | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 21:48:30,926 | INFO | Running dataset=cic_unsw model=decision_tree strategy=adasyn
+2026-03-28 21:48:31,673 | INFO | Done model=decision_tree strategy=adasyn | val_f1=0.6939 val_recall=0.6800 val_mcc=0.6863
+2026-03-28 21:48:31,674 | INFO | Running dataset=cic_unsw model=random_forest strategy=adasyn
+2026-03-28 21:48:34,813 | INFO | Done model=random_forest strategy=adasyn | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 21:48:34,814 | INFO | Running dataset=cic_unsw model=knn strategy=adasyn
+2026-03-28 21:48:35,263 | INFO | Done model=knn strategy=adasyn | val_f1=0.7869 val_recall=0.9600 val_mcc=0.7942
+2026-03-28 21:48:35,263 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=adasyn
+2026-03-28 21:48:49,804 | INFO | Done model=gradient_boosting strategy=adasyn | val_f1=0.7500 val_recall=0.8400 val_mcc=0.7474
+2026-03-28 21:48:49,805 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=random_undersample
+2026-03-28 21:48:50,101 | INFO | Done model=logistic_regression strategy=random_undersample | val_f1=0.5570 val_recall=0.8800 val_mcc=0.5852
+2026-03-28 21:48:50,101 | INFO | Running dataset=cic_unsw model=decision_tree strategy=random_undersample
+2026-03-28 21:48:50,545 | INFO | Done model=decision_tree strategy=random_undersample | val_f1=0.6053 val_recall=0.9200 val_mcc=0.6325
+2026-03-28 21:48:50,545 | INFO | Running dataset=cic_unsw model=random_forest strategy=random_undersample
+2026-03-28 21:48:53,906 | INFO | Done model=random_forest strategy=random_undersample | val_f1=0.7037 val_recall=0.7600 val_mcc=0.6976
+2026-03-28 21:48:53,906 | INFO | Running dataset=cic_unsw model=knn strategy=random_undersample
+2026-03-28 21:48:54,188 | INFO | Done model=knn strategy=random_undersample | val_f1=0.5294 val_recall=0.7200 val_mcc=0.5344
+2026-03-28 21:48:54,188 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=random_undersample
+2026-03-28 21:48:55,923 | INFO | Done model=gradient_boosting strategy=random_undersample | val_f1=0.6769 val_recall=0.8800 val_mcc=0.6864
+2026-03-28 21:48:55,923 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=smote_tomek
+2026-03-28 21:48:58,153 | INFO | Done model=logistic_regression strategy=smote_tomek | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 21:48:58,157 | INFO | Running dataset=cic_unsw model=decision_tree strategy=smote_tomek
+2026-03-28 21:49:00,107 | INFO | Done model=decision_tree strategy=smote_tomek | val_f1=0.7308 val_recall=0.7600 val_mcc=0.7242
+2026-03-28 21:49:00,108 | INFO | Running dataset=cic_unsw model=random_forest strategy=smote_tomek
+2026-03-28 21:49:04,947 | INFO | Done model=random_forest strategy=smote_tomek | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 21:49:04,947 | INFO | Running dataset=cic_unsw model=knn strategy=smote_tomek
+2026-03-28 21:49:06,572 | INFO | Done model=knn strategy=smote_tomek | val_f1=0.7541 val_recall=0.9200 val_mcc=0.7599
+2026-03-28 21:49:06,576 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=smote_tomek
+2026-03-28 21:49:26,103 | INFO | Done model=gradient_boosting strategy=smote_tomek | val_f1=0.7500 val_recall=0.8400 val_mcc=0.7474
+2026-03-28 21:49:27,409 | INFO | Top 5 for cic_unsw:
+dataset_name    model_name sampling_strategy  threshold  fit_seconds  validation_seconds  cv_accuracy  cv_precision  cv_recall    cv_f1  cv_roc_auc  cv_pr_auc  cv_balanced_accuracy  val_accuracy  val_precision  val_recall   val_f1  val_roc_auc  val_pr_auc  val_balanced_accuracy  val_mcc
+    cic_unsw           knn            adasyn   0.857143     0.127488            0.067839     0.978000      0.541212   0.987179 0.698718    0.984726   0.592929              0.982471         0.987       0.666667        0.96 0.786885     0.993026    0.653487               0.973846 0.794237
+    cic_unsw random_forest          baseline   0.236000     0.771532            0.239593     0.979000      0.623656   0.467611 0.533597    0.990078   0.603075              0.730043         0.988       0.709677        0.88 0.785714     0.994872    0.803416               0.935385 0.784391
+    cic_unsw random_forest       smote_tomek   0.476000     1.488610            0.149939     0.982667      0.624074   0.803981 0.701645    0.991879   0.650089              0.895661         0.988       0.709677        0.88 0.785714     0.993559    0.757764               0.935385 0.784391
+    cic_unsw random_forest             smote   0.488000     0.748854            0.122272     0.983333      0.642857   0.778003 0.702778    0.992301   0.660470              0.883356         0.988       0.709677        0.88 0.785714     0.992882    0.702330               0.935385 0.784391
+    cic_unsw random_forest            adasyn   0.532000     1.091634            0.206013     0.981667      0.617619   0.739204 0.672051    0.992297   0.658239              0.863615         0.988       0.709677        0.88 0.785714     0.993497    0.691887               0.935385 0.784391
+2026-03-28 21:49:27,410 | INFO | ==========================================================================================
+2026-03-28 21:49:27,411 | INFO | Starting dataset: cic_iomt_2024
+2026-03-28 21:51:03,723 | INFO | Dataset cic_iomt_2024 | rows=5000 cols=79
+2026-03-28 21:51:03,729 | INFO | Label distribution: {'0': 48, '1': 4952}
+2026-03-28 21:51:03,729 | INFO | Imbalance ratio(minority/majority)=0.009693 severity=extreme
+2026-03-28 21:51:03,730 | INFO | Missing values total: 0
+2026-03-28 21:51:03,730 | INFO | Numeric columns: 79 | Categorical columns: 0
+2026-03-28 21:51:03,797 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=baseline
+2026-03-28 21:51:04,270 | INFO | Done model=logistic_regression strategy=baseline | val_f1=0.9990 val_recall=0.9990 val_mcc=0.8990
+2026-03-28 21:51:04,271 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=baseline
+2026-03-28 21:51:04,536 | INFO | Done model=decision_tree strategy=baseline | val_f1=0.9980 val_recall=0.9980 val_mcc=0.7980
+2026-03-28 21:51:04,537 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=baseline
+2026-03-28 21:51:07,442 | INFO | Done model=random_forest strategy=baseline | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:51:07,443 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=baseline
+2026-03-28 21:51:07,872 | INFO | Done model=knn strategy=baseline | val_f1=0.9985 val_recall=0.9970 val_mcc=0.8757
+2026-03-28 21:51:07,872 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=baseline
+2026-03-28 21:51:12,326 | INFO | Done model=gradient_boosting strategy=baseline | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:51:12,326 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=smote
+2026-03-28 21:51:12,904 | INFO | Done model=logistic_regression strategy=smote | val_f1=0.9980 val_recall=1.0000 val_mcc=0.7730
+2026-03-28 21:51:12,905 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=smote
+2026-03-28 21:51:13,698 | INFO | Done model=decision_tree strategy=smote | val_f1=0.9980 val_recall=0.9980 val_mcc=0.7980
+2026-03-28 21:51:13,699 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=smote
+2026-03-28 21:51:16,786 | INFO | Done model=random_forest strategy=smote | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:51:16,786 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=smote
+2026-03-28 21:51:17,158 | INFO | Done model=knn strategy=smote | val_f1=0.9985 val_recall=0.9990 val_mcc=0.8418
+2026-03-28 21:51:17,159 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=smote
+2026-03-28 21:51:34,106 | INFO | Done model=gradient_boosting strategy=smote | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:51:34,107 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=adasyn
+2026-03-28 21:51:34,728 | INFO | Done model=logistic_regression strategy=adasyn | val_f1=0.9980 val_recall=0.9990 val_mcc=0.7807
+2026-03-28 21:51:34,729 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=adasyn
+2026-03-28 21:51:35,505 | INFO | Done model=decision_tree strategy=adasyn | val_f1=0.9980 val_recall=1.0000 val_mcc=0.7730
+2026-03-28 21:51:35,505 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=adasyn
+2026-03-28 21:51:38,380 | INFO | Done model=random_forest strategy=adasyn | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:51:38,381 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=adasyn
+2026-03-28 21:51:38,824 | INFO | Done model=knn strategy=adasyn | val_f1=0.9985 val_recall=0.9990 val_mcc=0.8418
+2026-03-28 21:51:38,825 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=adasyn
+2026-03-28 21:51:53,716 | INFO | Done model=gradient_boosting strategy=adasyn | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:51:53,716 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=random_undersample
+2026-03-28 21:51:53,958 | INFO | Done model=logistic_regression strategy=random_undersample | val_f1=0.9950 val_recall=1.0000 val_mcc=0.0000
+2026-03-28 21:51:53,959 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=random_undersample
+2026-03-28 21:51:54,130 | INFO | Done model=decision_tree strategy=random_undersample | val_f1=0.9950 val_recall=1.0000 val_mcc=0.0000
+2026-03-28 21:51:54,130 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=random_undersample
+2026-03-28 21:51:57,495 | INFO | Done model=random_forest strategy=random_undersample | val_f1=0.9980 val_recall=0.9960 val_mcc=0.8434
+2026-03-28 21:51:57,496 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=random_undersample
+2026-03-28 21:51:57,887 | INFO | Done model=knn strategy=random_undersample | val_f1=0.9980 val_recall=0.9960 val_mcc=0.8434
+2026-03-28 21:51:57,887 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=random_undersample
+2026-03-28 21:51:58,686 | INFO | Done model=gradient_boosting strategy=random_undersample | val_f1=0.9950 val_recall=1.0000 val_mcc=0.0000
+2026-03-28 21:51:58,687 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=smote_tomek
+2026-03-28 21:52:00,942 | INFO | Done model=logistic_regression strategy=smote_tomek | val_f1=0.9980 val_recall=1.0000 val_mcc=0.7730
+2026-03-28 21:52:00,944 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=smote_tomek
+2026-03-28 21:52:03,573 | INFO | Done model=decision_tree strategy=smote_tomek | val_f1=0.9980 val_recall=0.9980 val_mcc=0.7980
+2026-03-28 21:52:03,573 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=smote_tomek
+2026-03-28 21:52:08,080 | INFO | Done model=random_forest strategy=smote_tomek | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:52:08,080 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=smote_tomek
+2026-03-28 21:52:08,869 | INFO | Done model=knn strategy=smote_tomek | val_f1=0.9985 val_recall=0.9990 val_mcc=0.8418
+2026-03-28 21:52:08,870 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=smote_tomek
+2026-03-28 21:52:26,857 | INFO | Done model=gradient_boosting strategy=smote_tomek | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 21:52:29,172 | INFO | Top 5 for cic_iomt_2024:
+ dataset_name        model_name sampling_strategy  threshold  fit_seconds  validation_seconds  cv_accuracy  cv_precision  cv_recall    cv_f1  cv_roc_auc  cv_pr_auc  cv_balanced_accuracy  val_accuracy  val_precision  val_recall   val_f1  val_roc_auc  val_pr_auc  val_balanced_accuracy  val_mcc
+cic_iomt_2024     random_forest          baseline   0.344000     0.779344            0.188777     0.993333      0.995637   0.997645 0.996639    0.978165   0.999618              0.766679         0.998       0.997984         1.0 0.998991     0.999596    0.999996                    0.9 0.893525
+cic_iomt_2024     random_forest             smote   0.404000     0.967416            0.144928     0.994000      0.996972   0.996972 0.996972    0.978418   0.999617              0.837772         0.998       0.997984         1.0 0.998991     0.999394    0.999994                    0.9 0.893525
+cic_iomt_2024     random_forest            adasyn   0.248000     0.952579            0.181463     0.994000      0.996638   0.997308 0.996972    0.977733   0.999610              0.820083         0.998       0.997984         1.0 0.998991     0.999394    0.999994                    0.9 0.893525
+cic_iomt_2024     random_forest       smote_tomek   0.404000     1.774188            0.154605     0.994000      0.996638   0.997308 0.996972    0.978346   0.999617              0.820083         0.998       0.997984         1.0 0.998991     0.999394    0.999994                    0.9 0.893525
+cic_iomt_2024 gradient_boosting          baseline   0.007072     2.167986            0.036462     0.993000      0.995966   0.996972 0.996469    0.937969   0.998869              0.784200         0.998       0.997984         1.0 0.998991     0.999293    0.999993                    0.9 0.893525
+2026-03-28 21:52:29,178 | INFO | Benchmark run completed. Outputs saved under E:\Đồ án thạc sĩ\An toàn bảo mật hệ thống ATTT\project\paper_style_outputs
+2026-03-28 22:03:47,808 | INFO | ==========================================================================================
+2026-03-28 22:03:47,808 | INFO | Starting dataset: cic_unsw
+2026-03-28 22:05:35,901 | INFO | Dataset cic_unsw | rows=5000 cols=79
+2026-03-28 22:05:35,901 | INFO | Label distribution: {'0': 4873, '1': 127}
+2026-03-28 22:05:35,902 | INFO | Imbalance ratio(minority/majority)=0.026062 severity=severe
+2026-03-28 22:05:35,902 | INFO | Missing values total: 0
+2026-03-28 22:05:35,902 | INFO | Numeric columns: 79 | Categorical columns: 0
+2026-03-28 22:05:35,945 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=baseline
+2026-03-28 22:05:36,513 | INFO | Done model=logistic_regression strategy=baseline | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 22:05:36,513 | INFO | Running dataset=cic_unsw model=decision_tree strategy=baseline
+2026-03-28 22:05:36,872 | INFO | Done model=decision_tree strategy=baseline | val_f1=0.5116 val_recall=0.4400 val_mcc=0.5083
+2026-03-28 22:05:36,873 | INFO | Running dataset=cic_unsw model=random_forest strategy=baseline
+2026-03-28 22:05:40,556 | INFO | Done model=random_forest strategy=baseline | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 22:05:40,557 | INFO | Running dataset=cic_unsw model=knn strategy=baseline
+2026-03-28 22:05:44,314 | INFO | Done model=knn strategy=baseline | val_f1=0.6957 val_recall=0.9600 val_mcc=0.7152
+2026-03-28 22:05:44,314 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=baseline
+2026-03-28 22:05:50,389 | INFO | Done model=gradient_boosting strategy=baseline | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 22:05:50,389 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=smote
+2026-03-28 22:05:51,488 | INFO | Done model=logistic_regression strategy=smote | val_f1=0.7234 val_recall=0.6800 val_mcc=0.7183
+2026-03-28 22:05:51,488 | INFO | Running dataset=cic_unsw model=decision_tree strategy=smote
+2026-03-28 22:05:52,363 | INFO | Done model=decision_tree strategy=smote | val_f1=0.7451 val_recall=0.7600 val_mcc=0.7386
+2026-03-28 22:05:52,364 | INFO | Running dataset=cic_unsw model=random_forest strategy=smote
+2026-03-28 22:05:55,543 | INFO | Done model=random_forest strategy=smote | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 22:05:55,544 | INFO | Running dataset=cic_unsw model=knn strategy=smote
+2026-03-28 22:05:55,901 | INFO | Done model=knn strategy=smote | val_f1=0.7541 val_recall=0.9200 val_mcc=0.7599
+2026-03-28 22:05:55,901 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=smote
+2026-03-28 22:06:09,708 | INFO | Done model=gradient_boosting strategy=smote | val_f1=0.7692 val_recall=0.8000 val_mcc=0.7637
+2026-03-28 22:06:09,708 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=adasyn
+2026-03-28 22:06:10,536 | INFO | Done model=logistic_regression strategy=adasyn | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 22:06:10,537 | INFO | Running dataset=cic_unsw model=decision_tree strategy=adasyn
+2026-03-28 22:06:11,406 | INFO | Done model=decision_tree strategy=adasyn | val_f1=0.6939 val_recall=0.6800 val_mcc=0.6863
+2026-03-28 22:06:11,407 | INFO | Running dataset=cic_unsw model=random_forest strategy=adasyn
+2026-03-28 22:06:14,781 | INFO | Done model=random_forest strategy=adasyn | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 22:06:14,782 | INFO | Running dataset=cic_unsw model=knn strategy=adasyn
+2026-03-28 22:06:15,267 | INFO | Done model=knn strategy=adasyn | val_f1=0.7869 val_recall=0.9600 val_mcc=0.7942
+2026-03-28 22:06:15,267 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=adasyn
+2026-03-28 22:06:28,115 | INFO | Done model=gradient_boosting strategy=adasyn | val_f1=0.7500 val_recall=0.8400 val_mcc=0.7474
+2026-03-28 22:06:28,116 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=random_undersample
+2026-03-28 22:06:28,367 | INFO | Done model=logistic_regression strategy=random_undersample | val_f1=0.5570 val_recall=0.8800 val_mcc=0.5852
+2026-03-28 22:06:28,368 | INFO | Running dataset=cic_unsw model=decision_tree strategy=random_undersample
+2026-03-28 22:06:28,567 | INFO | Done model=decision_tree strategy=random_undersample | val_f1=0.6053 val_recall=0.9200 val_mcc=0.6325
+2026-03-28 22:06:28,567 | INFO | Running dataset=cic_unsw model=random_forest strategy=random_undersample
+2026-03-28 22:06:30,964 | INFO | Done model=random_forest strategy=random_undersample | val_f1=0.7037 val_recall=0.7600 val_mcc=0.6976
+2026-03-28 22:06:30,964 | INFO | Running dataset=cic_unsw model=knn strategy=random_undersample
+2026-03-28 22:06:31,226 | INFO | Done model=knn strategy=random_undersample | val_f1=0.5294 val_recall=0.7200 val_mcc=0.5344
+2026-03-28 22:06:31,226 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=random_undersample
+2026-03-28 22:06:31,927 | INFO | Done model=gradient_boosting strategy=random_undersample | val_f1=0.6769 val_recall=0.8800 val_mcc=0.6864
+2026-03-28 22:06:31,928 | INFO | Running dataset=cic_unsw model=logistic_regression strategy=smote_tomek
+2026-03-28 22:06:33,051 | INFO | Done model=logistic_regression strategy=smote_tomek | val_f1=0.7213 val_recall=0.8800 val_mcc=0.7255
+2026-03-28 22:06:33,051 | INFO | Running dataset=cic_unsw model=decision_tree strategy=smote_tomek
+2026-03-28 22:06:34,240 | INFO | Done model=decision_tree strategy=smote_tomek | val_f1=0.7308 val_recall=0.7600 val_mcc=0.7242
+2026-03-28 22:06:34,241 | INFO | Running dataset=cic_unsw model=random_forest strategy=smote_tomek
+2026-03-28 22:06:37,263 | INFO | Done model=random_forest strategy=smote_tomek | val_f1=0.7857 val_recall=0.8800 val_mcc=0.7844
+2026-03-28 22:06:37,264 | INFO | Running dataset=cic_unsw model=knn strategy=smote_tomek
+2026-03-28 22:06:37,867 | INFO | Done model=knn strategy=smote_tomek | val_f1=0.7541 val_recall=0.9200 val_mcc=0.7599
+2026-03-28 22:06:37,868 | INFO | Running dataset=cic_unsw model=gradient_boosting strategy=smote_tomek
+2026-03-28 22:06:49,518 | INFO | Done model=gradient_boosting strategy=smote_tomek | val_f1=0.7500 val_recall=0.8400 val_mcc=0.7474
+2026-03-28 22:06:50,255 | INFO | Top 5 for cic_unsw:
+dataset_name    model_name sampling_strategy  threshold  fit_seconds  validation_seconds  cv_accuracy  cv_precision  cv_recall    cv_f1  cv_roc_auc  cv_pr_auc  cv_balanced_accuracy  val_accuracy  val_precision  val_recall   val_f1  val_roc_auc  val_pr_auc  val_balanced_accuracy  val_mcc
+    cic_unsw           knn            adasyn   0.857143     0.076606            0.067102     0.978000      0.541212   0.987179 0.698718    0.984726   0.592929              0.982471         0.987       0.666667        0.96 0.786885     0.993026    0.653487               0.973846 0.794237
+    cic_unsw random_forest          baseline   0.236000     1.015108            0.288876     0.979000      0.623656   0.467611 0.533597    0.990078   0.603075              0.730043         0.988       0.709677        0.88 0.785714     0.994872    0.803416               0.935385 0.784391
+    cic_unsw random_forest       smote_tomek   0.476000     0.978428            0.126369     0.982667      0.624074   0.803981 0.701645    0.991879   0.650089              0.895661         0.988       0.709677        0.88 0.785714     0.993559    0.757764               0.935385 0.784391
+    cic_unsw random_forest             smote   0.488000     1.047794            0.197980     0.983333      0.642857   0.778003 0.702778    0.992301   0.660470              0.883356         0.988       0.709677        0.88 0.785714     0.992882    0.702330               0.935385 0.784391
+    cic_unsw random_forest            adasyn   0.532000     1.208292            0.179364     0.981667      0.617619   0.739204 0.672051    0.992297   0.658239              0.863615         0.988       0.709677        0.88 0.785714     0.993497    0.691887               0.935385 0.784391
+2026-03-28 22:06:50,256 | INFO | ==========================================================================================
+2026-03-28 22:06:50,257 | INFO | Starting dataset: cic_iomt_2024
+2026-03-28 22:08:21,773 | INFO | Dataset cic_iomt_2024 | rows=5000 cols=79
+2026-03-28 22:08:21,773 | INFO | Label distribution: {'0': 48, '1': 4952}
+2026-03-28 22:08:21,774 | INFO | Imbalance ratio(minority/majority)=0.009693 severity=extreme
+2026-03-28 22:08:21,774 | INFO | Missing values total: 0
+2026-03-28 22:08:21,774 | INFO | Numeric columns: 79 | Categorical columns: 0
+2026-03-28 22:08:21,810 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=baseline
+2026-03-28 22:08:22,195 | INFO | Done model=logistic_regression strategy=baseline | val_f1=0.9990 val_recall=0.9990 val_mcc=0.8990
+2026-03-28 22:08:22,196 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=baseline
+2026-03-28 22:08:22,510 | INFO | Done model=decision_tree strategy=baseline | val_f1=0.9980 val_recall=0.9980 val_mcc=0.7980
+2026-03-28 22:08:22,515 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=baseline
+2026-03-28 22:08:25,383 | INFO | Done model=random_forest strategy=baseline | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:08:25,383 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=baseline
+2026-03-28 22:08:25,644 | INFO | Done model=knn strategy=baseline | val_f1=0.9985 val_recall=0.9970 val_mcc=0.8757
+2026-03-28 22:08:25,644 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=baseline
+2026-03-28 22:08:29,362 | INFO | Done model=gradient_boosting strategy=baseline | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:08:29,362 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=smote
+2026-03-28 22:08:29,801 | INFO | Done model=logistic_regression strategy=smote | val_f1=0.9980 val_recall=1.0000 val_mcc=0.7730
+2026-03-28 22:08:29,801 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=smote
+2026-03-28 22:08:30,436 | INFO | Done model=decision_tree strategy=smote | val_f1=0.9980 val_recall=0.9980 val_mcc=0.7980
+2026-03-28 22:08:30,436 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=smote
+2026-03-28 22:08:33,029 | INFO | Done model=random_forest strategy=smote | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:08:33,029 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=smote
+2026-03-28 22:08:33,360 | INFO | Done model=knn strategy=smote | val_f1=0.9985 val_recall=0.9990 val_mcc=0.8418
+2026-03-28 22:08:33,360 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=smote
+2026-03-28 22:08:49,802 | INFO | Done model=gradient_boosting strategy=smote | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:08:49,803 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=adasyn
+2026-03-28 22:08:50,520 | INFO | Done model=logistic_regression strategy=adasyn | val_f1=0.9980 val_recall=0.9990 val_mcc=0.7807
+2026-03-28 22:08:50,521 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=adasyn
+2026-03-28 22:08:51,317 | INFO | Done model=decision_tree strategy=adasyn | val_f1=0.9980 val_recall=1.0000 val_mcc=0.7730
+2026-03-28 22:08:51,317 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=adasyn
+2026-03-28 22:08:54,503 | INFO | Done model=random_forest strategy=adasyn | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:08:54,503 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=adasyn
+2026-03-28 22:08:54,885 | INFO | Done model=knn strategy=adasyn | val_f1=0.9985 val_recall=0.9990 val_mcc=0.8418
+2026-03-28 22:08:54,885 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=adasyn
+2026-03-28 22:09:11,587 | INFO | Done model=gradient_boosting strategy=adasyn | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:09:11,587 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=random_undersample
+2026-03-28 22:09:11,879 | INFO | Done model=logistic_regression strategy=random_undersample | val_f1=0.9950 val_recall=1.0000 val_mcc=0.0000
+2026-03-28 22:09:11,879 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=random_undersample
+2026-03-28 22:09:12,100 | INFO | Done model=decision_tree strategy=random_undersample | val_f1=0.9950 val_recall=1.0000 val_mcc=0.0000
+2026-03-28 22:09:12,101 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=random_undersample
+2026-03-28 22:09:14,668 | INFO | Done model=random_forest strategy=random_undersample | val_f1=0.9980 val_recall=0.9960 val_mcc=0.8434
+2026-03-28 22:09:14,669 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=random_undersample
+2026-03-28 22:09:14,975 | INFO | Done model=knn strategy=random_undersample | val_f1=0.9980 val_recall=0.9960 val_mcc=0.8434
+2026-03-28 22:09:14,976 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=random_undersample
+2026-03-28 22:09:15,597 | INFO | Done model=gradient_boosting strategy=random_undersample | val_f1=0.9950 val_recall=1.0000 val_mcc=0.0000
+2026-03-28 22:09:15,598 | INFO | Running dataset=cic_iomt_2024 model=logistic_regression strategy=smote_tomek
+2026-03-28 22:09:16,457 | INFO | Done model=logistic_regression strategy=smote_tomek | val_f1=0.9980 val_recall=1.0000 val_mcc=0.7730
+2026-03-28 22:09:16,458 | INFO | Running dataset=cic_iomt_2024 model=decision_tree strategy=smote_tomek
+2026-03-28 22:09:17,584 | INFO | Done model=decision_tree strategy=smote_tomek | val_f1=0.9980 val_recall=0.9980 val_mcc=0.7980
+2026-03-28 22:09:17,585 | INFO | Running dataset=cic_iomt_2024 model=random_forest strategy=smote_tomek
+2026-03-28 22:09:21,242 | INFO | Done model=random_forest strategy=smote_tomek | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:09:21,242 | INFO | Running dataset=cic_iomt_2024 model=knn strategy=smote_tomek
+2026-03-28 22:09:21,865 | INFO | Done model=knn strategy=smote_tomek | val_f1=0.9985 val_recall=0.9990 val_mcc=0.8418
+2026-03-28 22:09:21,866 | INFO | Running dataset=cic_iomt_2024 model=gradient_boosting strategy=smote_tomek
+2026-03-28 22:09:38,767 | INFO | Done model=gradient_boosting strategy=smote_tomek | val_f1=0.9990 val_recall=1.0000 val_mcc=0.8935
+2026-03-28 22:09:41,238 | INFO | Top 5 for cic_iomt_2024:
+ dataset_name        model_name sampling_strategy  threshold  fit_seconds  validation_seconds  cv_accuracy  cv_precision  cv_recall    cv_f1  cv_roc_auc  cv_pr_auc  cv_balanced_accuracy  val_accuracy  val_precision  val_recall   val_f1  val_roc_auc  val_pr_auc  val_balanced_accuracy  val_mcc
+cic_iomt_2024     random_forest          baseline   0.344000     0.822509            0.169837     0.993333      0.995637   0.997645 0.996639    0.978165   0.999618              0.766679         0.998       0.997984         1.0 0.998991     0.999596    0.999996                    0.9 0.893525
+cic_iomt_2024     random_forest             smote   0.404000     0.769694            0.097187     0.994000      0.996972   0.996972 0.996972    0.978418   0.999617              0.837772         0.998       0.997984         1.0 0.998991     0.999394    0.999994                    0.9 0.893525
+cic_iomt_2024     random_forest            adasyn   0.248000     1.069748            0.147545     0.994000      0.996638   0.997308 0.996972    0.977733   0.999610              0.820083         0.998       0.997984         1.0 0.998991     0.999394    0.999994                    0.9 0.893525
+cic_iomt_2024     random_forest       smote_tomek   0.404000     1.279735            0.129138     0.994000      0.996638   0.997308 0.996972    0.978346   0.999617              0.820083         0.998       0.997984         1.0 0.998991     0.999394    0.999994                    0.9 0.893525
+cic_iomt_2024 gradient_boosting          baseline   0.007072     1.814446            0.024047     0.993000      0.995966   0.996972 0.996469    0.937969   0.998869              0.784200         0.998       0.997984         1.0 0.998991     0.999293    0.999993                    0.9 0.893525
+2026-03-28 22:09:41,253 | INFO | Benchmark run completed. Outputs saved under E:\Đồ án thạc sĩ\An toàn bảo mật hệ thống ATTT\project\paper_style_outputs
